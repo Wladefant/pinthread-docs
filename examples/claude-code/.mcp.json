@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "pinthread": {
+      "type": "http",
+      "url": "https://pinthread.dev/mcp",
+      "headers": {
+        "Authorization": "Bearer ${PINTHREAD_TOKEN}"
+      }
+    }
+  }
+}

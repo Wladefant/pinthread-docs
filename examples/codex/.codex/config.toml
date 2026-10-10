@@ -1,0 +1,3 @@
+[mcp_servers.pinthread]
+url = "https://pinthread.dev/mcp"
+bearer_token_env_var = "PINTHREAD_TOKEN"

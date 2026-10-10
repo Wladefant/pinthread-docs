@@ -1,0 +1,34 @@
+{
+  "name": "pinthread-init",
+  "version": "1.0.0",
+  "description": "Scaffold token-free MCP configurations for Pinthread in Claude Code, Cursor, and Codex",
+  "type": "module",
+  "bin": {
+    "pinthread-init": "./bin/pinthread-init.mjs"
+  },
+  "files": [
+    "bin"
+  ],
+  "scripts": {
+    "test": "node --test test/setup.test.mjs"
+  },
+  "keywords": [
+    "visual feedback",
+    "ai agents",
+    "mcp",
+    "website comments",
+    "claude code",
+    "cursor",
+    "codex"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wladefant/pinthread-docs.git"
+  },
+  "homepage": "https://pinthread.dev",
+  "author": "Wladefant",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
