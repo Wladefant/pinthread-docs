@@ -69,6 +69,12 @@ The `pinthread-init` CLI provides these guarantees:
 3. Never reads or writes secret values.
 4. Requires Node.js 20 or higher.
 
+## Continuous Integration
+
+The dedicated remote CI Worker runs `node ci/cloudflare/run.mjs`. It runs the existing `npm test` suite and prints the TAP test, pass, fail, and skipped counts. The helper package has no production build step.
+
+The Worker only receives a version upload. It has no product routes, Workers.dev URL, or preview URL.
+
 ## Hosted setup and connection checks
 
 Install the hosted script from [the install guide](https://pinthread.dev/install/) on your website.
